@@ -37,11 +37,8 @@
      
      */
     
-    
     NSKeyValueObservingOptions options = NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld;
-
     [self addObserver:self forKeyPath:@"kvoNumber" options:options context:nil];
-    
 }
 
 //- (void)willChangeValueForKey:(NSString *)key
